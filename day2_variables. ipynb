@@ -1,0 +1,176 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNw4TBELE0D+2Pkvmt/2tNC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/silverchimma/bioinformatics-learning/blob/main/day2_variables.%20ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qQLkexZw22XW",
+        "outputId": "4a6958b7-7063-4abf-d05e-93e32ccd73f1"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Bioinformatics\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello, Bioinformatics\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"My name is Chimma\"\n",
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mduSM39D3oE4",
+        "outputId": "2a141650-d0b1-4ab2-bf3e-675becd2115c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Chimma\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"Chimma\"\n",
+        "age = 23\n",
+        "height = 1.72\n",
+        "student = True\n",
+        "print(name)\n",
+        "print(age)\n",
+        "print(height)\n",
+        "print(student)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A5I21Wc90-eX",
+        "outputId": "9d860b62-9746-4c4f-81ad-c9299b413e35"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Chimma\n",
+            "23\n",
+            "1.72\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "v0yUQTph2ptI"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(type(name))\n",
+        "print(type(age))\n",
+        "print(type(height))\n",
+        "print(type(student))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DMPiWolW1zdn",
+        "outputId": "fbbd3dbf-0357-454e-ef83-0c0f2f7fd5a8"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'str'>\n",
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dna_length = 500\n",
+        "exon_length  = 120\n",
+        "intron_length = dna_length - exon_length\n",
+        "print(\"DNA length:\", dna_length)\n",
+        "print(\"Exon length:\", exon_length)\n",
+        "print(\"Intron length:\", intron_length)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KbvTnuL24LOo",
+        "outputId": "e5b61c62-f044-46d0-aa00-54dc2e4b1f8c"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DNA length: 500\n",
+            "Exon length: 120\n",
+            "Intron length: 380\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
